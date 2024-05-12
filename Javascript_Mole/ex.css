@@ -1,0 +1,38 @@
+body {
+  font-family: monospace;
+  background-color: #0000ff;
+  font-weight: lighter;
+}
+
+header {
+  padding: 1% 0 1% 0;
+  border: 2px solid #ffffff;
+}
+
+img {
+  max-width: 100%;
+}
+
+div {
+  display: inline-flex;
+  margin: 0px 1px;
+  padding: 1px;
+}
+
+.u-alert {
+  font-family: monospace;
+  color: #ffffff;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.b-div-father {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.b-img {
+  width: 300px;
+}/*# sourceMappingURL=ex.css.map */

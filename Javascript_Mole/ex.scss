@@ -1,0 +1,40 @@
+$primary-color: #0000ff;
+$secondary-color: #ffffff;
+body {
+  font-family: monospace;
+  background-color: $primary-color;
+  font-weight: lighter;
+}
+
+header {
+padding: 1% 0 1% 0;
+border: 2px solid $secondary-color;
+}
+
+
+img{
+  max-width: 100%;
+}
+
+div {
+  display: inline-flex;
+  margin: 0px 1px;
+  padding: 1px;
+}
+.u-alert {
+  font-family: monospace;
+  color: $secondary-color;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.b-div-father{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.b-img{
+width: 300px;
+}

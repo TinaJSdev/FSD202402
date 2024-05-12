@@ -1,0 +1,31 @@
+<body>
+  <div class="b-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <list
+            title="Comida"
+            [data]="arrComida"
+            (selectProduct)="onSelectProduct($event)"
+          ></list>
+
+          <list
+            title="Bebida"
+            [data]="arrBebidas"
+            (selectProduct)="onSelectProduct($event)"
+          >
+          </list>
+          <list
+            title="Postre"
+            [data]="arrPostres"
+            (selectProduct)="onSelectProduct($event)"
+          >
+          </list>
+        </div>
+        <div class="col-4">
+          <comanda title="Comanda" [selected]="arrSelected"> </comanda>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

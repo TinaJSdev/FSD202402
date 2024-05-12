@@ -1,0 +1,14 @@
+<div>
+  <h2>{{ title }}</h2>
+  <p>Q products: {{ data.length }}</p>
+  <div class="products d-flex flex-wrap gap-2">
+    <div class="product" *ngFor="let prod of data" (click)="onClick(prod)">
+      <div class="name-icon">
+        <h4>{{ prod.name }}</h4>
+        <h4>{{ prod.icon }}</h4>
+      </div>
+      <!-- <img class="image" src="{{ prod.image }}" alt="" /> -->
+      <p>Precio: {{ prod.price | currency : "EUR" }}</p>
+    </div>
+  </div>
+</div>

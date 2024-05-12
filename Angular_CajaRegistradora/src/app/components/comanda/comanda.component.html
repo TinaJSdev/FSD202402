@@ -1,0 +1,11 @@
+<div>
+  <div class="comanda">
+    <h2>Comanda</h2>
+    <div class="prodSelected">
+      <div class="productSelected" *ngFor="let selection of selected">
+        <p>{{ selection.name }}</p>
+        <p>{{ selection.price | currency : "EUR" }}</p>
+      </div>
+    </div>
+  </div>
+</div>
